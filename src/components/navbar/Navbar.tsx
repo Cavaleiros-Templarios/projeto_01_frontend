@@ -20,7 +20,7 @@ function Navbar() {
 	
 	return (
 		<>
-			<div className="flex justify-center w-full py-4 text-white bg-orange-300">
+			<div className="flex justify-center w-full py-4 text-white bg-[var(--cor-primaria)] shadow-sm">
 				<div className="container flex items-center justify-between mx-4 text-lg">
 					<Link to="/home">
 						<img

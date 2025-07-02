@@ -1,7 +1,14 @@
+import SlideMain from "../../components/slide/slideMain"
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+            <div>
+                <SlideMain />
+            </div>
+
+            {/* <ListarProdutos /> */}
+        </>
   )
 }
 

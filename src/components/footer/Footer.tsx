@@ -4,7 +4,7 @@ import { GithubLogo, InstagramLogo, LinkedinLogo } from "@phosphor-icons/react"
 function Footer() {
   return (
     <div className="
-        bg-orange-300
+        bg-[var(--cor-primaria)]
         py-6
         md:py-9
         lg:py-12
