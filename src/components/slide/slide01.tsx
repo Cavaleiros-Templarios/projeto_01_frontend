@@ -16,7 +16,7 @@ function Slide01() {
 
 					<div className="flex justify-center">
 						<img
-							src="https://ik.imagekit.io/dmzx7is6a/Order%20food-pana%20(2).png?updatedAt=1751551130828"
+							src="https://ik.imagekit.io/dmzx7is6a/FasGen/Order%20food-pana%20(2).png?updatedAt=1751551782370"
 							alt="Imagem Página Home"
 							className="w-full max-w-[70%] sm:max-w-[60%] md:max-w-[80%] lg:max-w-[70%] xl:max-w-[60%]"
 						/>
