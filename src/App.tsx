@@ -5,6 +5,7 @@ import Home from './pages/home/Home'
 import Sobre from './pages/sobre/Sobre'
 import Categorias from './pages/categorias/Categorias'
 import Ofertas from './pages/ofertas/Ofertas'
+import Produtos from './components/produtos/produtos'
 
 
 
@@ -17,6 +18,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
+              <Route path="/produtos" element={<Produtos />} />
               <Route path="/sobre" element={<Sobre />} />
               <Route path="/categorias" element={<Categorias />} />
               <Route path="/ofertas" element={<Ofertas />} />

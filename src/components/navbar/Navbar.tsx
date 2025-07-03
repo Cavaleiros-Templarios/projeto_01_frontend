@@ -28,15 +28,18 @@ function Navbar() {
                     </form>
                 </div>
                 <div className="flex items-center gap-4 md:gap-6 text-orange-500">
+                    <Link to="/produtos" className="hover:text-orange-700 transition-colors duration-300">
+                        Produtos
+                    </Link>
                     <Link to="/categorias" className="hover:text-orange-700 transition-colors duration-300">
                         Categorias
                     </Link>
                     <Link to="/ofertas" className="hover:text-orange-700 transition-colors duration-300">
                         Ofertas
                     </Link>
-                    <Link to="/meus-pedidos" className="hover:text-orange-700 transition-colors duration-300">
+                    {/* <Link to="/meus-pedidos" className="hover:text-orange-700 transition-colors duration-300">
                         Meus Pedidos
-                    </Link>
+                    </Link> */}
                     <Link to="/sobre" className="hover:text-orange-700 transition-colors duration-300">
                         Sobre
                     </Link>

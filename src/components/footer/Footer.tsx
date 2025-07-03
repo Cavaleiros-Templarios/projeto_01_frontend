@@ -20,10 +20,10 @@ function Footer() {
             justify-center 
             gap-6 mt-4
             ">
-            <a href="" target="_blank"> 
+            <a href="https://allmylinks.com/grupo03" target="_blank"> 
               <LinkedinLogo size={32} color="#f97316" /> 
             </a>
-            <a href="https://github.com/Cavaleiros-Templarios/" target="_blank">
+            <a href="https://allmylinks.com/tsydxyysudys" target="_blank">
               <GithubLogo size={32} color="#f97316" />
             </a>
         </div>
