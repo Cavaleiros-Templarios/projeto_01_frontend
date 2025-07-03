@@ -2,9 +2,9 @@
 
 :root {
   /* === CORES PRINCIPAIS === */
-  --cor-primaria: #FFBD53; /* Laranja dourado - usada em botões, destaques e elementos interativos */
-  --cor-primaria-hover: #e6a842; /* Versão mais escura para hover em botões e links */
-  --cor-primaria-fundo: #f6f6f6; /*  Cor para o background da página */
+  --cor-primaria: #f97316; /* Laranja dourado - usada em botões, destaques e elementos interativos */
+  --cor-primaria-hover: #ea580c; /* Versão mais escura para hover em botões e links */
+  --cor-primaria-fundo: #f3f4f6; /*  Cor para o background da página */
 
   --cor-secundaria: #0F3057; /* Azul escuro (exemplo) - pode ser usada para fundo ou header */
   --cor-secundaria-hover: #0a223e; /* Hover da cor secundária */
