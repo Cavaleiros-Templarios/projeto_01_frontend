@@ -1,69 +1,103 @@
-# React + TypeScript + Vite
+# 🍽️ FastGen - Plataforma de Delivery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Semana 12 do Bootcamp Full Stack Java | Generation Brasil**
 
-Currently, two official plugins are available:
+Este repositório contém o projeto **FastGen**, uma aplicação Frontend desenvolvida com **React + Vite** para simular um sistema moderno de pedidos online, inspirado em plataformas de delivery como iFood e Rappi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A proposta foi construir uma interface funcional e responsiva com foco em **experiência do usuário**, **organização de componentes** e **estilização com TailwindCSS**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Objetivos do Projeto
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Criar interface para uma plataforma de delivery de alimentos
+- Exibir produtos, categorias, ofertas e informações institucionais
+- Estruturar navegação com React Router
+- Utilizar animações e feedbacks com bibliotecas modernas
+- Criar uma base sólida para futuras integrações com backend/API
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tecnologias Utilizadas
+
+- ⚛️ React (com Vite)
+- 🎨 Tailwind CSS
+- 🧭 React Router DOM
+- 💎 Phosphor Icons
+- 🔎 SwiperJS (carrossel)
+- 🍽️ Mock de produtos e categorias
+
+---
+
+## 📂 Componentes Implementados
+
+- 🧭 **Navbar com ícones e busca**
+- 🏠 **Home com carrossel promocional**
+- 🍕 **Listagem de produtos**
+- 💸 **Ofertas com destaque visual**
+- 📖 **Sobre a plataforma**
+- 🔻 **Footer com informações finais**
+
+---
+
+## 🖼️ Prints do Projeto
+
+### 🧭 Navbar e Barra de Busca 
+![image](https://github.com/user-attachments/assets/8d1904d9-eb37-42d1-bac6-4229bed38d57)
+
+
+---
+
+### 🏠 Página Inicial (Banner e Destaques)  
+![image](https://github.com/user-attachments/assets/d12fa430-a57b-47a4-be2e-c291eb4218a4)
+
+
+---
+
+### 🍽️ Produtos Disponíveis  
+![image](https://github.com/user-attachments/assets/1d7ebc08-2a3a-4b7b-87a1-dd73a9d9166b)
+
+
+---
+
+### 💸 Ofertas Especiais  
+![image](https://github.com/user-attachments/assets/6ccbc0c0-1c71-4ed2-a152-d0b9973c267d)
+
+
+---
+
+### 🧾 Sobre o FastGen  
+![image](https://github.com/user-attachments/assets/1e0a3895-053b-486e-b674-06d8d9bfdb8b)
+
+
+---
+
+## ▶️ Como rodar o projeto localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/fastgen-delivery.git
+
+# Acesse o diretório
+cd fastgen-delivery
+
+# Instale as dependências com Yarn
+yarn
+
+# Rode o projeto
+yarn dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📬 Contato
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Desenvolvido por:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [**Wesley Lima**](https://github.com/Wezzlim)  
+- [**Alex Ikezili**](https://github.com/alexikezili)  
+- [**Gustavo Brassaroto Lira**](https://github.com/Brassaroto)  
+- [**Cristiano Forner**](https://github.com/cristianoforner)  
+- [**Fabricio Vicente Soares**](https://github.com/Fabriciovics)
+- [**Pedro Henrique**](https://github.com/phccoelho)  
+- [**Thiago Tasseli**](https://github.com/tasselii)  
+
+Fique à vontade para tirar dúvidas, dar sugestões ou contribuir! 😄
