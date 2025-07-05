@@ -76,10 +76,10 @@ A proposta foi construir uma interface funcional e responsiva com foco em **expe
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/fastgen-delivery.git
+git clone https://github.com/Cavaleiros-Templarios/projeto_01_frontend.git
 
 # Acesse o diretório
-cd fastgen-delivery
+cd projeto_01
 
 # Instale as dependências com Yarn
 yarn
